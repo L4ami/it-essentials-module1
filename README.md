@@ -1,6 +1,6 @@
 # Module 1 — IT Essentials : matériel, systèmes d'exploitation et réseau
 
-Rendu complet des 7 travaux pratiques du module IT Essentials, réalisés dans le cadre du Bachelor en informatique du **Geneva Institute of Technology** (Genève).
+Rendu complet des 7 travaux pratiques du module IT Essentials, réalisés au **Geneva Institute of Technology** (Genève), dans le cadre de ma formation : CFC d’informaticien + Bachelor en double certification.
 
 **Auteur :** Paul Giocanti · **Classe :** E1B · **Date :** 09.09.2026
 
