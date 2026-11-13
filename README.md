@@ -1,28 +1,37 @@
-# Module 1 — IT Essentials : matériel, systèmes d'exploitation et réseau
+# 🔧 IT Essentials : 7 TP de matériel, de systèmes d'exploitation et de réseau
 
-Rendu complet des 7 travaux pratiques du module IT Essentials, réalisés au **Geneva Institute of Technology** (Genève), dans le cadre de ma formation : CFC d’informaticien + Bachelor en double certification.
+![Windows 11](https://img.shields.io/badge/Windows-11_Pro-0078D4?logo=windows&logoColor=white)
+![Ubuntu](https://img.shields.io/badge/Ubuntu_Desktop-26.04.1_LTS-E95420?logo=ubuntu&logoColor=white)
+![VMware Workstation](https://img.shields.io/badge/VMware_Workstation-Pro-607078?logo=vmware&logoColor=white)
+![TP](https://img.shields.io/badge/travaux_pratiques-7-1F6FEB)
+![Statut](https://img.shields.io/badge/statut-termin%C3%A9-brightgreen)
 
-**Auteur :** Paul Giocanti · **Classe :** E1B · **Date :** 09.09.2026
+> **En une phrase :** j'ai démonté et remonté un PC, validé une configuration matérielle, sécurisé un BIOS, créé des clés USB d'installation, installé **Windows 11** et **Ubuntu**, puis diagnostiqué un problème de **ping** entre machines.
+
+Ce dépôt est écrit pour être compris **même sans rien connaître** à l'informatique matérielle : chaque TP explique ce qui a été fait et pourquoi.
+👉 Tout le rendu est sur cette page : un chapitre par TP (voir le sommaire ci-dessous).
+
+> Travaux pratiques du module **IT Essentials**, classe E1B, Geneva Institute of Technology (GIT), septembre 2026.
 
 ---
 
-## Sommaire
+## 🗂️ Sommaire
 
 | TP | Intitulé | Environnement utilisé | Statut |
 |----|----------|----------------------|--------|
-| [TP1](#tp1--montage--démontage-dun-pc) | Montage / démontage d'un PC | Lenovo ThinkCentre M92p (poste de labo) | Terminé |
-| [TP2](#tp2--étude-et-validation-de-compatibilité-dune-configuration-pc) | Étude de compatibilité d'une configuration | PCPartPicker | Terminé |
-| [TP3](#tp3--configuration-du-biosuefi--mot-de-passe-et-clear-cmos) | BIOS/UEFI : mot de passe et Clear CMOS | Lenovo ThinkCentre M92p (poste de labo) | Terminé |
-| [TP4](#tp4--création-dune-clé-usb-bootable-windows-11-et-ubuntu) | Création de clés USB bootables | Rufus sur Lenovo Legion Pro 5 | Terminé |
-| [TP5](#tp5--installation-de-windows-11) | Installation de Windows 11 | VM VMware Workstation | Terminé |
-| [TP6](#tp6--installation-dubuntu-desktop) | Installation d'Ubuntu | VM VMware Workstation | Terminé |
-| [TP7](#tp7--test-de-connectivité-réseau-ping) | Test de connectivité réseau (ping) | VMware Workstation, mode Pont | Terminé |
+| [TP1](#-tp1--montage--démontage-dun-pc) | Montage / démontage d'un PC | Lenovo ThinkCentre M92p (poste de labo) | Terminé |
+| [TP2](#-tp2--étude-et-validation-de-compatibilité-dune-configuration-pc) | Étude de compatibilité d'une configuration | PCPartPicker | Terminé |
+| [TP3](#-tp3--configuration-du-biosuefi--mot-de-passe-et-clear-cmos) | BIOS/UEFI : mot de passe et Clear CMOS | Lenovo ThinkCentre M92p (poste de labo) | Terminé |
+| [TP4](#-tp4--création-dune-clé-usb-bootable-windows-11-et-ubuntu) | Création de clés USB bootables | Rufus sur Lenovo Legion Pro 5 | Terminé |
+| [TP5](#-tp5--installation-de-windows-11) | Installation de Windows 11 | VM VMware Workstation | Terminé |
+| [TP6](#-tp6--installation-dubuntu-desktop) | Installation d'Ubuntu | VM VMware Workstation | Terminé |
+| [TP7](#-tp7--test-de-connectivité-réseau-ping) | Test de connectivité réseau (ping) | VMware Workstation, mode Pont | Terminé |
 
 **Compétences mises en œuvre :** montage et diagnostic matériel · BIOS/UEFI · virtualisation (VMware Workstation) · installation et configuration de Windows 11 et d'Ubuntu · réseau TCP/IP, DHCP, ICMP, pare-feu · vérification d'intégrité (SHA-256) · documentation technique.
 
 ---
 
-# TP1 — Montage / démontage d'un PC
+# 🔧 TP1 — Montage / démontage d'un PC
 
 ## 1. Objectif
 
@@ -95,7 +104,7 @@ Le démontage et le remontage ont été menés à terme : la machine passe le PO
 
 ---
 
-# TP2 — Étude et validation de compatibilité d'une configuration PC
+# 🧮 TP2 — Étude et validation de compatibilité d'une configuration PC
 
 ## 1. Objectif
 
@@ -166,7 +175,7 @@ Configuration complète sur PCPartPicker, avec le contrôle de compatibilité vi
 
 ---
 
-# TP3 — Configuration du BIOS/UEFI : mot de passe et Clear CMOS
+# 🔐 TP3 — Configuration du BIOS/UEFI : mot de passe et Clear CMOS
 
 ## 1. Objectif
 
@@ -246,7 +255,7 @@ Les quatre volets ont été réalisés : navigation BIOS, date/heure, séquence 
 
 ---
 
-# TP4 — Création d'une clé USB bootable (Windows 11 et Ubuntu)
+# 💽 TP4 — Création d'une clé USB bootable (Windows 11 et Ubuntu)
 
 ## 1. Objectif
 
@@ -329,7 +338,7 @@ Les supports d'installation ont été préparés en GPT/UEFI et le démarrage de
 
 ---
 
-# TP5 — Installation de Windows 11
+# 🪟 TP5 — Installation de Windows 11
 
 > **Remarque :** cette VM ayant été créée avant le démarrage formel du TP, les captures du partitionnement et du choix d'installation personnalisée n'ont pas pu être conservées. Les captures de configuration post-installation (réseau, pilotes, nom du poste) sont en revanche complètes.
 
@@ -403,7 +412,7 @@ L'installation de Windows 11 en VM a été menée avec succès, avec les préreq
 
 ---
 
-# TP6 — Installation d'Ubuntu Desktop
+# 🐧 TP6 — Installation d'Ubuntu Desktop
 
 ## 1. Objectif
 
@@ -485,7 +494,7 @@ L'installation d'Ubuntu s'est révélée plus rapide que celle de Windows 11, sa
 
 ---
 
-# TP7 — Test de connectivité réseau (ping)
+# 🌐 TP7 — Test de connectivité réseau (ping)
 
 ## 1. Objectif
 
@@ -608,7 +617,7 @@ Enfin, le cas du poste physique a mis en évidence un piège concret : lorsqu'un
 
 ---
 
-# Annexe — Conditions de réalisation
+# 📎 Annexe — Conditions de réalisation
 
 | Élément | Détail |
 |---------|--------|
@@ -617,3 +626,14 @@ Enfin, le cas du poste physique a mis en évidence un piège concret : lorsqu'un
 | TP réalisés en autonomie | TP2, TP4, TP5, TP6, TP7 |
 | TP réalisés en salle de labo | TP1, TP3 (Lenovo ThinkCentre M92p) |
 | Durée totale | 7 à 10 heures |
+
+---
+
+## 📁 Contenu du dépôt
+
+Tout le rendu tient dans ce `README.md`. Les photos et les captures d'écran sont hébergées sur HackMD, là où le rendu a été remis au formateur.
+
+---
+
+**Auteur :** Paul Giocanti ([@L4ami](https://github.com/L4ami)) · Septembre 2026<br>
+CFC d'informaticien + Bachelor (double certification) · Geneva Institute of Technology
