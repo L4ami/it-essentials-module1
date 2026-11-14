@@ -8,7 +8,7 @@
 
 > **En une phrase :** j'ai démonté et remonté un PC, validé une configuration matérielle, sécurisé un BIOS, créé des clés USB d'installation, installé **Windows 11** et **Ubuntu**, puis diagnostiqué un problème de **ping** entre machines.
 
-Ce dépôt est écrit pour être compris **même sans rien connaître** à l'informatique matérielle : chaque TP explique ce qui a été fait et pourquoi.
+Ce dépôt est écrit pour être compris **même sans rien connaître** à l'informatique matérielle : chaque TP explique ce qui a été fait et pourquoi.<br>
 👉 Tout le rendu est sur cette page : un chapitre par TP (voir le sommaire ci-dessous).
 
 > Travaux pratiques du module **IT Essentials**, classe E1B, Geneva Institute of Technology (GIT), septembre 2026.
